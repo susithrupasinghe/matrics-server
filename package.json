@@ -1,0 +1,31 @@
+{
+  "name": "matrix_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.1",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "export-to-csv": "^0.2.1",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "json-2-csv": "^3.17.1",
+    "mongoose": "^6.3.2",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.7.1"
+  }
+}
